@@ -9,7 +9,7 @@
     <packaging>war</packaging>
 
     <name>Hệ Thống Quản Lý Siêu Thị Điện Máy (ShopMan)</name>
-    <description>Bài tập lớn môn Phân tích và Thiết kế Hệ thống Thông tin - PTIT (Đề số 35)</description>
+    <description>Bài tập lớn môn Phân tích và Thiết kế Hệ thống Thông tin - PTIT (Đề số 11)</description>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>

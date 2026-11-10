@@ -43,7 +43,7 @@
     <div class="container">
         <div class="header">
             <h1>HỆ THỐNG QUẢN LÝ SIÊU THỊ ĐIỆN MÁY (SHOPMAN)</h1>
-            <div class="user-info">PTTKHTTT - PTIT (Đề số 35)</div>
+            <div class="user-info">PTTKHTTT - PTIT (Đề số 11)</div>
         </div>
 
         <p style="text-align: center; color: #555; font-size: 15px; margin-top: 10px;">
