@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Thống Kê Nhà Cung Cấp Theo Lượng Hàng Nhập - ShopMan</title>
+    <link rel="stylesheet" href="../src/main/webapp/css/style.css">
+</head>
+<body>
+    <div class="container" style="max-width: 1200px;">
+        <div class="header">
+            <h1>HỆ THỐNG QUẢN LÝ SIÊU THỊ ĐIỆN MÁY</h1>
+            <div class="user-info">Quản lý: Nguyễn Văn Quản Lý</div>
+        </div>
+
+        <h2 class="sub-header">Màn Hình Thống Kê Nhà Cung Cấp Theo Lượng Hàng Nhập (GDThongKeNCC)</h2>
+
+        <!-- Khung tóm tắt khoảng thời gian (chỉ hiển thị thông tin, không có nút đổi) -->
+        <div style="background: #e8f5e9; border: 1px solid #c8e6c9; padding: 14px 20px; border-radius: 8px; margin-bottom: 20px; font-size: 14px;">
+            Khoảng thời gian thống kê: Từ ngày <strong>01/09/2026</strong> đến ngày <strong>30/09/2026</strong>
+        </div>
+
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th style="width: 55px;" class="text-center">Hạng</th>
+                    <th style="width: 110px;">Mã NCC</th>
+                    <th>Tên Nhà Cung Cấp Đối Tác</th>
+                    <th style="width: 115px;">Điện Thoại</th>
+                    <th style="width: 105px;" class="text-center">Số Lần Nhập</th>
+                    <th style="width: 165px;" class="text-right">Tổng Lượng Nhập (Cái/Bộ)</th>
+                    <th style="width: 165px;" class="text-right">Tổng Tiền Nhập (VNĐ)</th>
+                    <th style="width: 125px;" class="text-center">Thao Tác</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text-center"><span style="background: #ffd700; color: #333; font-weight: bold; padding: 4px 9px; border-radius: 50%;">🥇 1</span></td>
+                    <td><strong>NCC_LG</strong></td>
+                    <td>
+                        <a href="GDChiTietNCC.html?id=2" style="color: #0277bd; font-weight: 600; text-decoration: none;">
+                            Công ty TNHH LG Electronics Việt Nam
+                        </a>
+                    </td>
+                    <td>02439345151</td>
+                    <td class="text-center">2 đợt</td>
+                    <td class="text-right" style="font-size: 16px; font-weight: bold; color: #2e7d32;">61</td>
+                    <td class="text-right" style="font-weight: 600;">640,000,000 đ</td>
+                    <td class="text-center">
+                        <a href="GDChiTietNCC.html?id=2" class="btn btn-primary" style="padding: 5px 12px; font-size: 13px;">
+                            Xem Chi Tiết
+                        </a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="text-center"><span style="background: #c0c0c0; color: #333; font-weight: bold; padding: 4px 9px; border-radius: 50%;">🥈 2</span></td>
+                    <td><strong>NCC_SS</strong></td>
+                    <td>
+                        <a href="GDChiTietNCC.html?id=1" style="color: #0277bd; font-weight: 600; text-decoration: none;">
+                            Công ty TNHH Điện tử Samsung Vina
+                        </a>
+                    </td>
+                    <td>02839157310</td>
+                    <td class="text-center">2 đợt</td>
+                    <td class="text-right" style="font-size: 16px; font-weight: bold; color: #2e7d32;">54</td>
+                    <td class="text-right" style="font-weight: 600;">830,000,000 đ</td>
+                    <td class="text-center">
+                        <a href="GDChiTietNCC.html?id=1" class="btn btn-primary" style="padding: 5px 12px; font-size: 13px;">
+                            Xem Chi Tiết
+                        </a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="text-center"><span style="background: #cd7f32; color: #fff; font-weight: bold; padding: 4px 9px; border-radius: 50%;">🥉 3</span></td>
+                    <td><strong>NCC_PANA</strong></td>
+                    <td>
+                        <a href="GDChiTietNCC.html?id=4" style="color: #0277bd; font-weight: 600; text-decoration: none;">
+                            Công ty TNHH Panasonic Việt Nam
+                        </a>
+                    </td>
+                    <td>02439550111</td>
+                    <td class="text-center">1 đợt</td>
+                    <td class="text-right" style="font-size: 16px; font-weight: bold; color: #2e7d32;">28</td>
+                    <td class="text-right" style="font-weight: 600;">320,000,000 đ</td>
+                    <td class="text-center">
+                        <a href="GDChiTietNCC.html?id=4" class="btn btn-primary" style="padding: 5px 12px; font-size: 13px;">
+                            Xem Chi Tiết
+                        </a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="text-center">4</td>
+                    <td><strong>NCC_SONY</strong></td>
+                    <td>
+                        <a href="GDChiTietNCC.html?id=3" style="color: #0277bd; font-weight: 600; text-decoration: none;">
+                            Công ty TNHH Sony Electronics Việt Nam
+                        </a>
+                    </td>
+                    <td>02838456777</td>
+                    <td class="text-center">1 đợt</td>
+                    <td class="text-right" style="font-size: 16px; font-weight: bold; color: #2e7d32;">25</td>
+                    <td class="text-right" style="font-weight: 600;">275,000,000 đ</td>
+                    <td class="text-center">
+                        <a href="GDChiTietNCC.html?id=3" class="btn btn-primary" style="padding: 5px 12px; font-size: 13px;">
+                            Xem Chi Tiết
+                        </a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="text-center">5</td>
+                    <td><strong>NCC_DAIKIN</strong></td>
+                    <td>
+                        <a href="GDChiTietNCC.html?id=5" style="color: #0277bd; font-weight: 600; text-decoration: none;">
+                            Công ty Cổ phần Daikin Air Conditioning VN
+                        </a>
+                    </td>
+                    <td>02862505555</td>
+                    <td class="text-center">1 đợt</td>
+                    <td class="text-right" style="font-size: 16px; font-weight: bold; color: #2e7d32;">20</td>
+                    <td class="text-right" style="font-weight: 600;">180,000,000 đ</td>
+                    <td class="text-center">
+                        <a href="GDChiTietNCC.html?id=5" class="btn btn-primary" style="padding: 5px 12px; font-size: 13px;">
+                            Xem Chi Tiết
+                        </a>
+                    </td>
+                </tr>
+
+                <!-- Dòng Tổng Cộng -->
+                <tr class="total-row">
+                    <td colspan="4" class="text-center" style="text-transform: uppercase;">TỔNG CỘNG HỆ THỐNG</td>
+                    <td class="text-center">7 đợt</td>
+                    <td class="text-right" style="font-size: 17px;">188</td>
+                    <td class="text-right" style="font-size: 17px;">2,245,000,000 đ</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Footer chỉ có duy nhất nút Quay lại màn hình trước đúng theo Sơ đồ tuần tự và Sơ đồ trạng thái -->
+        <div class="footer-nav">
+            <a href="GDChonKhoangThoiGian.html" class="btn btn-secondary">⬅ Quay lại</a>
+        </div>
+    </div>
+</body>
+</html>
